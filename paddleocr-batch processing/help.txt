@@ -1,0 +1,2 @@
+这是一个使用说明：按照testfile文件夹的格式将需要旋转不同角度的图片放入，随后执行程序（程序中文件夹的地址需要修改为实际地址），即可批量将图片角度转换为正确的角度并提取文字。
+This is a usage guide: Put the images that need to be rotated at different angles in the format of the testfile folder, and then execute the program (the folder address in the program needs to be modified to the actual address) to batch convert the image angles to the correct angles and extract text.

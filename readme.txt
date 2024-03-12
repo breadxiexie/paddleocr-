@@ -1,0 +1,21 @@
+在这里，有百度官方的paddleocr的使用说明和批量提取文字（含有自动调整角度）的程序。具体的使用说明请参考每个文件夹下的help说明。
+Here, there are official instructions for using Baidu PaddleOCR and a program for extracting text in bulk (including automatic angle adjustment). Please refer to the help instructions under each folder for specific usage instructions.
+当你想要提取不同的语言的文字时，请修改代码中“ocr=PaddleOCR(use_angle_cls=True,lang="ch")”这一部分（lang=“你需要的语言”）
+When you want to extract text from different languages, please modify the "ocr=PaddleOCR (useangle_cls=True, lang=" ch ")" section in the code (lang="Language you need")
+首先，请在百度paddle的官方网址根据自己的需求（cuda版本，cpu运行等）下载适合的paddle框架，建议使用官方给出的pip命令下载（安装paddlepaddle）。
+接下来，确保已经成功安装了paddlepaddle框架，然后在github上下载paddleocr的包（本文会附有一个）并解压。
+然后，可以使用附有的paddle test程序提取一张图片的文字然后测试是否安装完成。
+会有更加具体的使用说明在本文件夹下的两张图中，可以阅读这两张图获得更详细的讲解，在此感谢这两张图的来源。
+一些小问题的说明：安装paddlepaddle可能不需要添加环境变量，如果不添加环境变量可以正常运行就不要添加；批量处理程序需要用到opencv库，请注意opencv库和paddleocr的版本适配（opencv4.6以下的版本适配）；opencv库的使用要求文件夹的路径为英文或数字。
+如果有新问题欢迎补充。
+Firstly, please download the suitable Paddle framework from the official website of Baidu Paddle according to your needs (cuda version, CPU running, etc.). It is recommended to use the official pip command to download (install PaddlePaddle).
+
+Next, ensure that the PaddlePaddle framework has been successfully installed, then download the Paddleocr package (which will be included in this article) on GitHub and unzip it.
+
+Then, you can use the attached Paddle Test program to extract the text of an image and test if the installation is complete.
+
+There will be more specific usage instructions in the two images in this folder. You can read these two images for more detailed explanations. Thank you for the sources of these two images.
+
+Explanation of some minor issues: Installing PaddlePaddle may not require adding environment variables. If you can run normally without adding environment variables, do not add them; Batch processing programs require the use of the OpenCV library. Please note the compatibility between the OpenCV library and PaddleOCR versions (compatible with versions below OpenCV 4.6); The use of the opencv library requires the folder path to be in English or numbers.
+
+If there are any new questions, please feel free to add them.
